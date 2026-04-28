@@ -11,9 +11,6 @@ venv/
 dist/
 build/
 
-# Data (PDFs can be large — share via Drive instead)
-data/*.pdf
-
 # Streamlit cache
 .streamlit/
 
