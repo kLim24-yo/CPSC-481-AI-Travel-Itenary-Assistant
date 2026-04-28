@@ -1,0 +1,27 @@
+# Core
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-huggingface==0.0.3
+
+# Vector DB
+pinecone-client==4.1.2
+
+# Embeddings
+sentence-transformers==3.0.1
+
+# PDF loading
+pypdf==4.3.1
+
+# Frontend
+streamlit==1.37.1
+
+# LLM (pick one — see backend/rag.py)
+# Option A: Hugging Face (free)
+huggingface_hub==0.24.5
+# Option B: OpenAI (uncomment if using GPT)
+# openai==1.40.0
+# langchain-openai==0.1.23
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
