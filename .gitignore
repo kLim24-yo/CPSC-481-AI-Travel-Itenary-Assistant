@@ -1,19 +1,16 @@
-# Secrets — NEVER commit these
-.env
-
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-venv/
-.venv/
 *.egg-info/
-dist/
-build/
+.venv/
+venv/
+.env
 
-# Streamlit cache
-.streamlit/
+# Vector index — rebuilt at deploy time / first run
+faiss_index/
 
-# OS
+# OS / editor
 .DS_Store
-Thumbs.db
+.idea/
+.vscode/
+*.swp
